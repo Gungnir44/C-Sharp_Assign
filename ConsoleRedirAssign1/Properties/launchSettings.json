@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleRedirAssign1": {
+      "commandName": "Project",
+      "commandLineArgs": " < c:\\temp\\myinput.txt"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\bin\Debug\net8.0\ConsoleRedirAssign1.exe
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\bin\Debug\net8.0\ConsoleRedirAssign1.deps.json
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\bin\Debug\net8.0\ConsoleRedirAssign1.runtimeconfig.json
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\bin\Debug\net8.0\ConsoleRedirAssign1.dll
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\bin\Debug\net8.0\ConsoleRedirAssign1.pdb
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\obj\Debug\net8.0\ConsoleRedirAssign1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\obj\Debug\net8.0\ConsoleRedirAssign1.AssemblyInfoInputs.cache
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\obj\Debug\net8.0\ConsoleRedirAssign1.AssemblyInfo.cs
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\obj\Debug\net8.0\ConsoleRedirAssign1.csproj.CoreCompileInputs.cache
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\obj\Debug\net8.0\ConsoleRedirAssign1.dll
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\obj\Debug\net8.0\refint\ConsoleRedirAssign1.dll
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\obj\Debug\net8.0\ConsoleRedirAssign1.pdb
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\obj\Debug\net8.0\ConsoleRedirAssign1.genruntimeconfig.cache
+C:\Users\joshu\OneDrive\Desktop\C# Class\ConsoleRedirAssign1\obj\Debug\net8.0\ref\ConsoleRedirAssign1.dll
