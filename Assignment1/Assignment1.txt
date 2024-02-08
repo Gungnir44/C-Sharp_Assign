@@ -1,0 +1,80 @@
+﻿using System;
+using System.IO;
+
+class Redirection()
+{
+
+    static void Main()
+    {
+
+        var firstName = Console.ReadLine();
+        var lastName = Console.ReadLine();
+        var birthplace = Console.ReadLine();
+        var countryOfBirth = Console.ReadLine();
+        var capital = Console.ReadLine();
+        var gdp = Console.ReadLine();
+        long gdp1 = 0;
+        long.TryParse(gdp, out gdp1);
+        int population = 100000;
+        var friendName = Console.ReadLine();
+        var friendAge = Console.ReadLine();
+        long widgets = 30000;
+        var friendWidgets1 = Console.ReadLine();
+        var friendWidgets2 = Console.ReadLine();
+        var friendWidgets3 = Console.ReadLine();
+        var friendWidgets4 = Console.ReadLine();
+        var anotherFriendAge = Console.ReadLine();
+        int age = 0;
+        int.TryParse(friendAge, out age);
+        var stringAsNumber1 = Console.ReadLine();
+        var stringAsNumber2 = Console.ReadLine();
+        long WorldPopulation = 7800000000; //approximate world pop
+
+        // Should print out just like example from Assignment one
+        string output =
+            $"Hi, my name is {firstName} {lastName}, and I was born in {birthplace}. " +
+            $"It is polite to write my name like this: ({firstName.ToUpper()} {lastName.ToUpper()}). " +
+            $"My name is huge; it is {firstName.Length + lastName.Length} characters long!\n \n" +
+            $"Many of my friends were born in the country of {countryOfBirth}. Its capital is {capital}, " +
+            $"but people call it: {capital.Replace("Para", "")}.\n \n" +
+            $"My country is very wealthy, with a GDP of {gdp:C}. We have {population} citizens, " +
+            $"and each generates {gdp1 / population:C} of the GDP output. Each of us produces " +
+            $"30,000 widgets a year, for a total of {widgets * population} widgets per year!\n" +
+            $"Many of the world’s population of {WorldPopulation} people will buy them!\n \n" +
+            $"Here is my friend, {friendName}, her age: {friendAge}, and how many widgets she produced per quarter last year:\n\n" +
+            $"Name: {friendName} Age: {friendAge} Q1: {friendWidgets1} Q2: {friendWidgets2} Q3: {friendWidgets3} Q4: {friendWidgets4}. " +
+            $"Total: {friendWidgets1 + friendWidgets2 + friendWidgets3 + friendWidgets4}.\n \n" +
+            $"Here is another friend, and he is {anotherFriendAge} years old. They are a total of " +
+            $"{age + anotherFriendAge} years old.\n \n" +
+            $"Is this string {stringAsNumber1} a number? {(int.TryParse(stringAsNumber1, out int result1) ? result1.ToString() : "No, didn't convert")}.\n" +
+            $"Is this string {stringAsNumber2} a number? {(int.TryParse(stringAsNumber2, out int result2) ? result2.ToString() : "No, didn't convert")}.\n";
+        Console.WriteLine(output);
+
+        // Actor tuples consisting of Name, Age, and a Movie. Which are all great movies btw
+        var actor1 = System.Tuple.Create("Keanu Reeves", 57, "The Matrix");
+        var actor2 = System.Tuple.Create("Mel Gibson", 68, "The Patriot");
+        var actor3 = System.Tuple.Create("Bruce Willis", 68, "Die Hard");
+
+        Console.WriteLine($"Actor 1: {actor1}");
+        Console.WriteLine($"Actor 2: {actor2}");
+        Console.WriteLine($"Actor 3: {actor3}\n");
+
+        // numbers typed at random, because why not
+        var tuple1 = System.Tuple.Create(44, 4);
+        var tuple2 = System.Tuple.Create(11, 345);
+
+        // Tuple addition and multiplication
+        Console.WriteLine($"The sum and product of number tuples 1: {tuple1} and 2: {tuple2} are {tuple1.Item1 + tuple1.Item2 + tuple2.Item1 + tuple2.Item2} and {tuple1.Item1 * tuple1.Item2 * tuple2.Item1 * tuple2.Item2}.\n");
+
+        // A string array of large dog breeds courtesy of Google
+        string[] dogBreeds = { "Alaskan Malamute", "German Shepherd", "Golden Retriever", "Great Pyrenees", "Bernese Mountain Dog", "Great Dane", "Rottweiler", "Dobermann", "Irish Wolfhound" };
+
+        // Prints full array
+        Console.WriteLine($"My Dogs: {string.Join(", ", dogBreeds)}\n");
+
+        // Prints just 3-5 from the array
+        Console.WriteLine($"The 3rd through 5th dogs: {string.Join(", ", dogBreeds[2..5])}");
+
+        Console.WriteLine();
+    }
+}
